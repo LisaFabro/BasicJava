@@ -4,11 +4,17 @@ public class Main {
     //Per questa classe saranno necessari i metodi accessori (getters e setters) ed un costruttore.
     //Nel main dichiarare un oggetto di tipo Studente.
     public static void main(String[] args){
-        Student student1 = new Student();
-        student1.name = "Gino";
-        student1.surname = "Rossi";
-        student1.id = 123456;
+        Student student1 = new Student("Gino", "Rossi", 123456);
 
-        System.out.println(student1);
+        System.out.println("Il nome dello studente è: " + student1.getName());
+        System.out.println("Il cognome dello studente è: " + student1.getSurname());
+        System.out.println("ID studente: " + student1.getId());
+
+        student1.setName("Stefano");
+        student1.setSurname("Verdi");
+        student1.setId(123444);
+        System.out.println("Richiesta di modifica nome: " + student1.getName());
+        System.out.println("Richiesta di modifica cognome: " + student1.getSurname());
+        System.out.println("Richiesta di modifica ID: " + student1.getId());
     }
 }
