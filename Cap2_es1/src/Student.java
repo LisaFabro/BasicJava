@@ -9,7 +9,8 @@ public class Student {
     }
     public String getName(){
         return name;
-    }    public String getSurname(){
+    }
+    public String getSurname(){
         return surname;
     }
     public int getId(){
