@@ -6,12 +6,11 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "engine=" + engine +
-                ", plate='" + plate + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                '}';
+        return "Auto: " +
+                brand + ", " +
+                model + ", " +
+                engine + ", " +
+                plate ;
     }
 
     public Car(int engine, String plate, String brand, String model){
