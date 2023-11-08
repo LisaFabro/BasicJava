@@ -1,6 +1,6 @@
 package Es_4;
 
-public abstract class Forma{
+public abstract class Forma4 {
     private int base = 10;
     private int altezza = 5;
 
@@ -12,5 +12,5 @@ public abstract class Forma{
 
         return altezza;
     }
-    public abstract void calcolaArea();
+    public abstract int calcolaArea();
 }

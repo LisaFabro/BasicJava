@@ -1,6 +1,6 @@
 package Es_3;
 
-public class Forma {
+public class Forma3 {
     private int base = 10;
     private int altezza = 5;
 
@@ -10,8 +10,7 @@ public class Forma {
     public int getAltezza(){
         return altezza;
     }
-    public void calcolaArea(){
-
-        System.out.println("I valori inseriti  per il calcolo delle aree sono: base " + getBase() + " e altezza " + getAltezza());
+    public int calcolaArea(){
+        return 0;
     }
 }
