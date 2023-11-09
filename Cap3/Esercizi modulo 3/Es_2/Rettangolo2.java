@@ -1,8 +1,10 @@
 package Es_2;
 
 public class Rettangolo2 extends Forma2 {
-    public int base = 10;
-    public int altezza = 5;
+    public Rettangolo2(int base, int altezza){
+        this.base = base;
+        this.altezza = altezza;
+    }
 
     @Override
     public int calcolaArea() {

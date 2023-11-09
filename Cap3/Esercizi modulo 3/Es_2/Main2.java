@@ -6,7 +6,7 @@ public class Main2 {
     // del metodo calcolaArea() per calcolare l'area del rettangolo.
     public static void main(String[] args){
         Forma2 forma = new Forma2();
-        Rettangolo2 rettangolo = new Rettangolo2();
+        Rettangolo2 rettangolo = new Rettangolo2(10, 5);
 
         System.out.println("Numero massimo lati ammessi per le forme " + forma.calcolaArea());
         System.out.println("L'area del rettangolo è: " + rettangolo.calcolaArea());

@@ -5,8 +5,8 @@ public class Main3 {
     // per quest'ultima figura
     public static void main(String[] args){
         Forma3 forma = new Forma3();
-        Rettangolo3 rettangolo = new Rettangolo3();
-        Triangolo3 triangolo = new Triangolo3();
+        Rettangolo3 rettangolo = new Rettangolo3(3, 5);
+        Triangolo3 triangolo = new Triangolo3(4, 7);
 
         System.out.println("I valori inseriti  per il calcolo delle aree sono base e altezza " + forma.calcolaArea());
         System.out.println("Area del Rettangolo: " + rettangolo.calcolaArea());

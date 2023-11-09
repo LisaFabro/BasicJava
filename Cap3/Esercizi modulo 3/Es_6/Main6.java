@@ -5,8 +5,8 @@ public class Main6 {
     // estendono Forma e che abbiano un tipo che ne identifichi la Forma in maniera univoca usando una enum.
     public static void main(String[] args){
         Forma6 forma = new Forma6();
-        Rettangolo6 rettangolo = new Rettangolo6();
-        Triangolo6 triangolo = new Triangolo6();
+        Rettangolo6 rettangolo = new Rettangolo6(10,3);
+        Triangolo6 triangolo = new Triangolo6(4,6);
 
         System.out.println("Valore default = " + forma.calcolaArea());
         System.out.println("Area " + rettangolo.formaRettangolo + " = " + rettangolo.calcolaArea());
