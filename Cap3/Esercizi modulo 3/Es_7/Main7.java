@@ -9,14 +9,15 @@ public class Main7 {
 
         System.out.println(compPhrases(phrase1, phrase2));
     }
-    public static StringBuilder compPhrases(String var1, String var2){
+    public static String compPhrases(String var1, String var2){
         int result = var1.compareToIgnoreCase(var2);
         StringBuilder answer = new StringBuilder();
+        answer.append("Le due stringhe sono ");
         if(result == 0){
-            answer.append("Le due stringhe sono uguali");
+            answer.append("uguali");
         }else{
-            answer.append("Le due stringhe sono diverse");
+            answer.append("diverse");
         }
-        return answer;
+        return answer.toString();
     }
 }
