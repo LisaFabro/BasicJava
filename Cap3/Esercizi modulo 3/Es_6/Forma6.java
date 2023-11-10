@@ -1,13 +1,13 @@
 package Es_6;
-enum TIPOFORMA{
+enum tipoForma{
     Rettangolo,
     Triangolo
 }
 public class Forma6 {
     public int base;
     public int altezza;
-    int valDefault = 0;
+    tipoForma tipo;
     public int calcolaArea(){
-        return valDefault;
+        return 0;
     }
 }

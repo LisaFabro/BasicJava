@@ -9,7 +9,7 @@ public class Main6 {
         Triangolo6 triangolo = new Triangolo6(4,6);
 
         System.out.println("Valore default = " + forma.calcolaArea());
-        System.out.println("Area " + rettangolo.formaRettangolo + " = " + rettangolo.calcolaArea());
-        System.out.println("Area " + triangolo.formaTriangolo + " = " + triangolo.calcolaArea());
+        System.out.println("Area del " + tipoForma.Rettangolo + " = " + rettangolo.calcolaArea());
+        System.out.println("Area del " + tipoForma.Triangolo + " = " + triangolo.calcolaArea());
     }
 }
