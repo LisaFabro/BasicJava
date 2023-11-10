@@ -8,13 +8,13 @@ public class Main8 {
 
     public static void main(String[] args){
         String phrase = "oggi è una brutta giornata";
-        String result = findUnicode(phrase, 50);
+        String result = findUnicode(phrase, 0);
 
         System.out.println(result);
     }
     public static String findUnicode(String phrase, int index){
         StringBuilder answer = new StringBuilder();
-        if (index>0 && index <= phrase.length()){
+        if (index>=0 && index <= phrase.length()){
             answer.append(phrase.codePointAt(index));
          }else{
         answer.append("error");
