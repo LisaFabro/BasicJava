@@ -1,7 +1,7 @@
 package Es_6;
-enum tipoForma{
-    rettangolo,
-    triangolo
+enum TIPOFORMA{
+    Rettangolo,
+    Triangolo
 }
 public class Forma6 {
     public int base;

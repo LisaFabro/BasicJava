@@ -1,7 +1,7 @@
 package Es_6;
 
 public class Rettangolo6 extends Forma6{
-    tipoForma  formaRettangolo = tipoForma.rettangolo;
+    TIPOFORMA  formaRettangolo = TIPOFORMA.Rettangolo;
 
     public Rettangolo6(int base, int altezza){
         this.base=base;
